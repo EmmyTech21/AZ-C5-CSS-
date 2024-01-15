@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+
+
+main{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.67) 0%, rgba(0, 0, 0, 0.67) 100%),
+     url(/src/img/hero\ img.png), lightgray 50% /  cover no-repeat;
+     background-position: center;
+  
+    height: 460px;
+}
+
+.under-line {
+    margin-left: 30px; 
+    padding-top: 80px;
+    color: #FFF;
+   
+}
+.line {
+    font-family: 'Merriweather', serif;
+    width: 73.007px;
+    height: 2.5px;
+    background: #C82424;
+}
+
+.hero-text {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.hero-text p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;    
+}
+.hero-text h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 760;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.links {
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: normal;
+    border: 1px solid #fff;
+    border-radius: 7px;
+ }
+
+.links a:hover {
+    text-decoration: none;
+}
+
+.first-link {
+    background-color: #C82424;
+    border: none !important;
+}
+
+
+
+.article-sec {
+    margin: 20px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    gap: 10px;
+    
+}
+
+
+
+.col-md {
+    background: #F9F9F9;
+    padding: 10px 20px 10px;
+    width: 500px;
+    height: 270px;
+    
+}
+
+.article-text {
+    text-align: center;
+}
+
+.article-text h2 {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article-text svg {
+   margin: 10px 10px 10px;
+    width: 50px;
+    height: 40px;
+}
+
+.article-text p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.years-25{
+    color: #C82424;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ABOUT STYLING */
+
+.about-img, img{
+    width: 500px;
+    height: 373.656px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   margin: 20px 20px;
+}
+
+.under-line-1 p{
+    padding-left: 0;
+    color: #6C6C6C;
+    font-family: 'Merriweather';
+    
+}
+.under-line {
+    padding: 0;
+    margin-bottom: 20px;
+}
+.about-table{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text-1 {
+    margin: 20px 5px 20px;
+    padding: 20px 20px 20px;
+}
+
+.about-text-1 p{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    
+    }
+.about-heading p{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-text-1 button {
+    border: none;
+    color: #FFF;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    background: #C82424;
+    padding: 10px 10px;
+}
+
+   /* SECTION STYLING */
+
+   section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+
+.section-text{
+    padding: 20px 25px 20px;
+    margin: 20px 20px 10px;
+    border-radius: 5px;
+    background: #C82424;
+    height: 400px;
+}
+
+.section-text h3{
+    color: #FFF;
+    font-family:' Merriweather';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+
+}
+
+.section-text img {
+    width: 96px;
+    height: 39px;
+
+}
+.section-text p{
+    color: #F4D3D5;
+    font-family: 'Merriweather';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+
+.section-text h4 {
+     color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    }
+
+#sec-p {
+    color: #FFF;
+    font-family:' Merriweather';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.video-section img{
+   
+    /* margin: 20px 20px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+.video-section svg {
+   margin-top: 15px;
+   margin-left: 10px;
+    width: 64px;
+    height: 44px;
+    
+}
+
+.video-section{
+    position: relative;
+   
+}
+
+.svg-con{
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    bottom: 500px;
+    border-radius: 40%;
+    background: #C82424;
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+/* CONTACT STYLING */
+
+.contact-sec{
+    color: #FFF;
+    font-family: 'Merriweather';
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.76) 100%),
+     url(/src/img/contact-bg.png),
+      lightgray 50% / cover no-repeat;
+      height: 1200px;
+      margin: 20px 20px;
+      display: flex;
+      flex-direction: column;
+}
+
+.contact-sec h4{
+    padding: 20px 0px;
+    margin: 15px 25px 10px ;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.contact-sec p{
+    font-size: 13px;
+    margin: 15px 25px 10px ;
+    line-height: normal;
+}
+
+.under-line-1 span {
+    display: block;
+    margin-top: 40px;
+   
+}
+
+.contact-sec .under-line-1{
+    margin-left: 25px;
+}
+
+.contact-svg-circle{
+    width: 35px;
+    height: 35px;
+    background: #FFF;
+    stroke-width: 0.8px;
+    stroke: #000;
+    border-radius: 50%;
+
+}
+
+
+ .contact-sec button {
+    margin-top: 200px;
+    display: inline-block;
+ }
+.contact-svg-circle svg{
+    margin: 5px 5px;
+}
+.contact-svg {
+    margin: 20px 25px  30px;
+    display: flex;
+    gap: 10px;
+}
+
+/* CONTACT FORM STYLING */
+
+.name, .email , .phone, .date, .textarea{
+    margin: 10px 25px 20px;
+    display: block;
+    width: 378px;
+    height: 55px;
+
+}
+.name span, .email span, .phone span, .date span, .textarea span{  
+    display: flex;
+}
+ form svg{
+    width: 60px;
+    height: 50px;
+    border-right: 0.7px solid #8B8B8B;
+    background: #3F596C;
+ }
+
+ form input, text{
+    text-transform: uppercase;
+    padding-left: 20px;
+    height: 50px;
+    width: 100%;
+    color: #2D2D2D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ textarea{
+    width: 350px;
+    height: 200px;
+ }
+
+@media screen and (min-width:601px) {
+
+    .article-sec {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    article{
+        margin-left: 30px !important;
+        width: 100%;
+    }
+
+        .col-md{
+            margin-left: 30px !important;
+            width: 300px !important;
+            height: 250px;
+        }
+
+        .about-table {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        .about-img {
+            width: 50%;
+        }
+        .about-text-1 {
+            width: 50%;
+        }
+
+section{
+    flex-direction: row;
+    /* justify-content: space-between; */
+   
+}
+
+
+.video-section{
+    /* z-index: 30; */
+    margin: 0;
+    /* content: ''; */
+}
+
+.video-section img{
+    width: 610px;
+   
+    
+}
+
+.contact-sec {
+    flex-direction: row;
+}
+
+}
+
+
+
